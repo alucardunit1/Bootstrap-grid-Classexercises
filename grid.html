@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Grid Practice</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+      <!-- 
+        STUDENT TASKS
+
+        Step 1: Run this code in a browser.
+        Step 2: Resize the window and observe how the cards adjust.
+        Step 3: Modify the grid layout:
+            - Change 'col-md-4' to 'col-lg-3' or 'col-sm-12' to see what happens.
+            - Add a new profile card using the same structure.
+        Step 4: Customize the design:
+            - Change the background color of the cards using Bootstrap classes (e.g., bg-primary, bg-warning).
+            - Add a Bootstrap button inside each card (e.g., <button class="btn btn-primary">View Profile</button>).
+        Step 5: Share your results with a partner and discuss: 
+            - What happens when you resize the page?
+            - How does Bootstrap's grid help create responsive layouts?
+
+        EXTRA CHALLENGE: 
+        - Try adding an image or icon inside each card using Bootstrap utilities.
+    -->
+
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Profile Card 1 -->
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="card text-center p-3">
+                    <img src="https://via.placeholder.com/100" class="rounded-circle mx-auto" alt="Profile">
+                    <h5 class="mt-2">Student 1</h5>
+                    <p>Web Developer</p>
+                </div>
+            </div>
+
+            <!-- Profile Card 2 -->
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="card text-center p-3">
+                    <img src="https://via.placeholder.com/100" class="rounded-circle mx-auto" alt="Profile">
+                    <h5 class="mt-2">Student 2</h5>
+                    <p>UI Designer</p>
+                </div>
+            </div>
+
+            <!-- Profile Card 3 -->
+            <div class="col-md-4 col-sm-12 col-12">
+                <div class="card text-center p-3">
+                    <img src="https://via.placeholder.com/100" class="rounded-circle mx-auto" alt="Profile">
+                    <h5 class="mt-2">Student 3</h5>
+                    <p>Software Engineer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
